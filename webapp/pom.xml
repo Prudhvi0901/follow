@@ -13,6 +13,7 @@
             <plugin>
                   <artifactId>maven-compiler-plugin</artifactId>
                   <version>3.5.1</version>
+                  <configuration>
                     <archive>
                         <manifest>
                             <mainClass>org.example.pipeline.Main</mainClass>
