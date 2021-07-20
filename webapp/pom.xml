@@ -13,6 +13,8 @@
             <plugin>
                   <artifactId>maven-compiler-plugin</artifactId>
                   <version>3.5.1</version>
+    <artifactId>maven-jarsigner-plugin</artifactId>
+    <version>1.2</version
                   <configuration>
                     <archive>
                         <manifest>
@@ -28,7 +30,7 @@
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
                         <phase>package</phase> <!-- bind to the packaging phase -->
                         <goals>
-                            <goal>single</goal>
+                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>
