@@ -17,8 +17,7 @@
                       <source>1.8</source>
                       <target>1.8</target>
                   </configuration>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <configuration>
+              </plugin>
                     <archive>
                         <manifest>
                             <mainClass>org.example.pipeline.Main</mainClass>
