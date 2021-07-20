@@ -2,7 +2,7 @@ node {
   checkout scm
   stage('Package') {
     dir('webapp') {
-      sh 'sudo mvn clean package -DskipTests'
+      sh 'mvn clean package -DskipTests'
     }
   }
 
