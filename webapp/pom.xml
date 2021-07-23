@@ -28,7 +28,7 @@
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
                         <phase>package</phase> <!-- bind to the packaging phase -->
                         <goals>
-                            <goal>sign</goal>
+                            <goal>signer</goal>
                         </goals>
                     </execution>
                 </executions>
